@@ -30,3 +30,32 @@ body {
     color: rgb(0, 0, 0);
     font-size: 3em; /* Aumenta o tamanho do texto */
 }
+
+
+@media (max-width: 1500px) {
+
+    body {
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        height: 65vh;
+        margin: 0;
+        background-position-x: center;
+        background-size: 1500px;
+        background-repeat: no-repeat;    
+        
+    }
+    .rel-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(209, 253, 231);
+        margin-top: 10em;
+        width: 16em;
+        height: 9em;
+        padding: 1.3em;
+        border-radius: 20px;
+    }
+
+}
